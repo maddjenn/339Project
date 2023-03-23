@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- All of the meta data for the page belongs in the header tag -->
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Link to the favicon image -->
-	<!-- <link rel="icon" href="images/favicon.ico"> 
-	<!-- Link to the reset file -->
-	<!-- <link rel="stylesheet" href="css/html5reset.css"> -->
-	<!-- Link to the stylesheet -->
-	<!-- <link rel="stylesheet" href="css/style.css"> --> 
-	<link rel="icon" href="favicon.ico">
-	<link rel="stylesheet" href="html5reset.css">
-	<link rel="stylesheet" href="style.css">
-	<title>About Me</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo-drk.png" />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Newer Company Inc.</title>
   </head>
-  
-<!-- All of the visible code in the page belongs in the body tag -->
-<body>
-	<!-- Header is a sematic tag page that aids readability -->
-	<header>
-		<!-- Nav is a sematic tag page that aids accessibility -->
-		<nav>
-			<ul>
-				<!-- Since I am on the index file I added class = action to the link to index. -->
-				<li class="active"><a href = "index.html" >About Me</a></li>
-				<li><a href = "personal.html">My Family</a></li>
-				<li><a href = "random.html">Random</a></li>
-				<li><a href = "http://www.si.umich.edu">UMSI</a></li>
-			</ul>
-		</nav>
-		<!-- The h1 is a semantic tag that aids accessibility -->
-		<h1>Colleen van Lent</h1>
-	</header>
+  <body>
+    <div class="skip"><a href="">Skip to Main Content</a></div>
+    <header>
+      <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Interests</a></li>
+            <li><a href="">About Me</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="container" id = "main">
+      <div class = overview>
+        <h1>Home</h1>
+        <p>UX Design and Neuroscience @ the University of Michigan </p>
+      </div>
 
-	<!-- Every page should have a main tag for accessibility -->
-	<main>
-		<p>I am a Lecturer IV in the School of Information at the 
-			University of Michigan. I focus on the introductory 
-			programming courses such as Data-Oriented Programming 
-			(SI 206) and the Web Design Courses (SI 339 and SI 539).</p>
+      <div class="about-image" id="about">
+        <img src="images/about.jpg" alt=""/>
+      </div>
+      
+      <div class="about text-block">
+        <h2>Projects</h2>
+        <p>I have worked as a UX Designer, Reseracher and Programmer in various projects </p>
+      </div>
 
-		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
-		<p>
-			I received my BS from <a href = "http://www.kent.edu">Kent State 
-			University</a> Honors College in Computer Science, and an MS 
-			and PhD from the University of Pittsburgh, also in Computer 
-			Science. My thesis was on Artificial Intelligence applications on 
-			the Nursebot Project, a robotic assistant for the elderly.</p>
-		<p>My previous jobs include Associate Professor at 
-			<a href = "http://www.csulb.edu">California State University</a> 
-			and positions at NASA JPL, the Naval Research Lab, and the NSA. 
-		</p>
-	</main>
+      <div class="method-image" id="method">
+        <img src="images/method.jpg" alt=""/>
+      </div>
 
-	<!-- Footer is a sematic tag page that aids readability -->
-	<footer>
-		<p>Colleen van Lent &copy; 2020</p>
-	</footer>
-</body>
+      <div class="method text-block">
+        <h2>Method</h2>
+        <p>Praesent eu lorem sed eros pellentesque tincidunt. Duis nec dapibus dui. Curabitur cursus dapibus lectus, at molestie ipsum hendrerit eget. Aliquam magna ipsum, gravida et ligula id, tincidunt facilisis arcu. In blandit, magna a pretium mollis, mauris odio cursus eros, tempor rutrum diam est non enim. Nunc porttitor imperdiet placerat. Mauris aliquam, purus nec viverra placerat, ipsum est sollicitudin ipsum, vel lacinia justo justo rutrum libero.</p>
+        <p>Praesent eu lorem sed eros pellentesque tincidunt. Duis nec dapibus dui. Curabitur cursus dapibus lectus, at molestie ipsum hendrerit eget. Aliquam magna ipsum, gravida et ligula id, tincidunt facilisis arcu. In blandit, magna a pretium mollis, mauris odio cursus eros, tempor rutrum diam est non enim. Nunc porttitor imperdiet placerat. Mauris aliquam, purus nec viverra placerat, ipsum est sollicitudin ipsum, vel lacinia justo justo rutrum libero.</p>
+      </div>
+
+      <div class="clients-image" id="clients">
+        <img src="images/clients.jpg" alt=""/>
+      </div>
+
+      <div class="clients text-block">
+        <h2>Clients</h2>
+        <p>Nullam accumsan efficitur accumsan. Nunc arcu ante, iaculis nec leo vel, iaculis cursus odio. Vestibulum at elit eu nisi finibus placerat ac a lorem. Donec congue iaculis quam, non tempor ipsum accumsan et. Duis risus tellus, maximus sit amet varius pulvinar, faucibus in orci. Morbi ac placerat lectus. Sed leo augue, fringilla eu viverra auctor, dapibus vitae odio. Quisque non porttitor sem, vitae dictum tortor. Maecenas interdum sollicitudin mattis. Pellentesque accumsan elit eget placerat finibus. Phasellus eget elit quis est mattis porta non non metus. Pellentesque lacus dui, tempor ac elit at, convallis ultricies velit. Fusce viverra dui dui, vitae feugiat erat ornare sit amet. Maecenas diam ligula, venenatis id dignissim et, convallis non tellus. Aenean vehicula laoreet vehicula.</p>
+      </div>
+
+      <div class="contact-image" id="contact">
+        <img src="images/contact.jpg" alt =""/>
+      </div>
+
+      <div class="contact text-block">
+        <h2>Contact</h2>
+        <p> Email: Maddjenn@umich.edu  Github: maddjenn  Instagram: @MadisonnJenn  </p>
+      </div>
+  </main>
+    <footer>
+      <p>University of Michigan School of Information <br/>
+        &copy; Madison Jennings - UX Design 2023</p>
+    </footer>
+  </body>
