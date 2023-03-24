@@ -7,6 +7,34 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Newer Company Inc.</title>
+     <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        margin-top: 40px;
+      }
+
+      .overview,
+      .about,
+      .method,
+      .clients,
+      .contact {
+        grid-column: span 3;
+      }
+
+      .about-image,
+      .method-image,
+      .clients-image,
+      .contact-image {
+        grid-column: span 2;
+      }
+
+      .text-block {
+        grid-column: 1 / -1;
+      }
+    </style
   </head>
   <body>
     <div class="skip"><a href="">Skip to Main Content</a></div>
@@ -27,7 +55,7 @@
       </div>
 
       <div class="about-image" id="about">
-        <img src="imagess/COMEON.jpg" alt=""/>
+        <img src="imagess/COMEON.jpg" alt="Pokemon Portfolio"/>
       </div>
       
       <div class="about text-block">
@@ -36,13 +64,12 @@
       </div>
 
       <div class="method-image" id="method">
-        <img src="images/A.jpg" alt=""/>
+        <img src="imagess/A.jpg" alt="Pokemon"/>
       </div>
 
       <div class="method text-block">
         <h2>Method</h2>
-        <p>Praesent eu lorem sed eros pellentesque tincidunt. Duis nec dapibus dui. Curabitur cursus dapibus lectus, at molestie ipsum hendrerit eget. Aliquam magna ipsum, gravida et ligula id, tincidunt facilisis arcu. In blandit, magna a pretium mollis, mauris odio cursus eros, tempor rutrum diam est non enim. Nunc porttitor imperdiet placerat. Mauris aliquam, purus nec viverra placerat, ipsum est sollicitudin ipsum, vel lacinia justo justo rutrum libero.</p>
-        <p>Praesent eu lorem sed eros pellentesque tincidunt. Duis nec dapibus dui. Curabitur cursus dapibus lectus, at molestie ipsum hendrerit eget. Aliquam magna ipsum, gravida et ligula id, tincidunt facilisis arcu. In blandit, magna a pretium mollis, mauris odio cursus eros, tempor rutrum diam est non enim. Nunc porttitor imperdiet placerat. Mauris aliquam, purus nec viverra placerat, ipsum est sollicitudin ipsum, vel lacinia justo justo rutrum libero.</p>
+        <p>I use XD, Figma and Canvas</p>
       </div>
 
       <div class="clients-image" id="clients">
@@ -51,7 +78,7 @@
 
       <div class="clients text-block">
         <h2>Clients</h2>
-        <p>Nullam accumsan efficitur accumsan. Nunc arcu ante, iaculis nec leo vel, iaculis cursus odio. Vestibulum at elit eu nisi finibus placerat ac a lorem. Donec congue iaculis quam, non tempor ipsum accumsan et. Duis risus tellus, maximus sit amet varius pulvinar, faucibus in orci. Morbi ac placerat lectus. Sed leo augue, fringilla eu viverra auctor, dapibus vitae odio. Quisque non porttitor sem, vitae dictum tortor. Maecenas interdum sollicitudin mattis. Pellentesque accumsan elit eget placerat finibus. Phasellus eget elit quis est mattis porta non non metus. Pellentesque lacus dui, tempor ac elit at, convallis ultricies velit. Fusce viverra dui dui, vitae feugiat erat ornare sit amet. Maecenas diam ligula, venenatis id dignissim et, convallis non tellus. Aenean vehicula laoreet vehicula.</p>
+        <p>I am an incoming Product Designer at Xometry</p>
       </div>
 
       <div class="contact-image" id="contact">
@@ -62,6 +89,12 @@
         <h2>Contact</h2>
         <p> Email: Maddjenn@umich.edu  Github: maddjenn  Instagram: @MadisonnJenn  </p>
       </div>
+		<img src="AAAA.jpg" alt="Picture of Portfolio">
+		<img src="AAAAAA.jpg" alt="Figma Picture">
+		<img src="Pokemon1.jpg" alt="Ideation">
+		<img src="Pokemon2.jpg" alt="Wireframing">
+		<img src="Pokemon3.jpg" alt="Planning">
+
   </main>
     <footer>
       <p>University of Michigan School of Information <br/>
