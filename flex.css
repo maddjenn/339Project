@@ -1,1 +1,11 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.flex img {
+  max-width: 100%;
+  height: auto;
+}
