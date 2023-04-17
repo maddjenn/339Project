@@ -19,18 +19,31 @@ body {
 .contact {
   grid-column: span 3;
 }
-
 .about-image,
 .method-image,
 .clients-image,
 .contact-image {
   grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img,
+.method-image img,
+.clients-image img,
+.contact-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .text-block {
   grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
 #main img {
   display: block;
   margin: 0 auto;
